@@ -1,0 +1,50 @@
+.meeting.wrapper {
+  background:#1f2425;
+  height: 100vh;
+  width: 100%;
+  padding : 30px;
+}
+
+video {
+  max-width: 100vh;
+}
+
+.meeting .ag-header {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ag-header-lead {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.meeting .ag-footer {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.meeting .ag-main {
+  position: relative;
+}
+
+.meeting .ag-footer :first-child {
+  margin-right: 80px;
+}
+
+.header-logo {
+  width: 60px;
+  height: 35px;
+  margin-right: 12px;
+}
+
+.ag-container {
+  width: calc(100% - 60px);
+  height: 80vh;
+  width : 98%;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 12px;
+}
